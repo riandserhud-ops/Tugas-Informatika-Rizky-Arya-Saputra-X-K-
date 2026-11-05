@@ -1,2 +1,2 @@
-# Tugas-Informatika-Rizky-Arya-Saputra-X-K-
+# Tugas-Informatika-X-K-
 Asli ini  bu ngga ada contributor lain selain saya
