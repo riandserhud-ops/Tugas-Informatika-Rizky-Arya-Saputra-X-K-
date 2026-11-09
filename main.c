@@ -1,17 +1,16 @@
 #include <stdio.h>
-#include <math.h>
 
 int main() {
-     double basis, pangkat, hasil;
+    float angka1, angka2, hasil;
 
-    printf("Masukan angka basis: ");
-    scanf("%lf", &basis);
-    printf(" Masukan angka pangkat: ");
-    scanf("%lf", &pangkat);
-    
-    hasil = pow(basis, pangkat);
+    printf("=== PROGRAM PERKALIAN ===\n");
+    printf("Masukkan angka pertama: ");
+    scanf("%f", &angka1);
+    printf("Masukkan angka kedua: ");
+    scanf("%f", &angka2);
 
-    printf("%2.lf dipangkatkan %2.lf adalah: %2.lf\n", basis, pangkat, hasil);
-    
+    hasil = angka1 * angka2;
+    printf("Hasil perkalian: %.2f\n", hasil);
+
     return 0;
 }
